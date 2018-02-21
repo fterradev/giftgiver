@@ -5,5 +5,16 @@ exports[`renders correctly 1`] = `
   <h2>
     Gift Giver
   </h2>
+  <Button
+    active={false}
+    block={false}
+    bsClass="btn"
+    bsStyle="default"
+    className="btn-add"
+    disabled={false}
+    onClick={[Function]}
+  >
+    Add Gift
+  </Button>
 </div>
 `;
