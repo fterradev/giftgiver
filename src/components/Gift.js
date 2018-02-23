@@ -27,6 +27,8 @@ class Gift extends Component {
                 })
               }
             />
+          </FormGroup>
+          <FormGroup>
             <ControlLabel>Present</ControlLabel>
             <FormControl
               className="input-present"
