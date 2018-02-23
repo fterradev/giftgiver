@@ -23,6 +23,18 @@ exports[`Gift renders properly 1`] = `
         componentClass="input"
         onChange={[Function]}
       />
+      <ControlLabel
+        bsClass="control-label"
+        srOnly={false}
+      >
+        Present
+      </ControlLabel>
+      <FormControl
+        bsClass="form-control"
+        className="input-present"
+        componentClass="input"
+        onChange={[Function]}
+      />
     </FormGroup>
   </Form>
 </div>
