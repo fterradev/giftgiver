@@ -22,6 +22,10 @@
     "react-test-renderer": "^16.2.0"
   },
   "jest": {
-    "snapshotSerializers": ["enzyme-to-json/serializer"]
+    "snapshotSerializers": ["enzyme-to-json/serializer"],
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/(index|setupTests|tempPolyfills).js"
+    ]
   }
 }
