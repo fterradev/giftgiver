@@ -46,9 +46,11 @@ describe('Gift', () => {
 
   describe('when clicking the `Remove Gift` button', () => {
     beforeEach(() => {
-      gift.find('btn-remove').simulate('click');
+      gift.find('.btn-remove').simulate('click');
     });
 
-    expect(mockRemove).toHaveBeenCalledWith(id);
+    it('calls the removeGift callback', () => {
+      expect(mockRemove).toHaveBeenCalledWith(id);
+    });
   });
 });
