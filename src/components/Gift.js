@@ -42,7 +42,7 @@ class Gift extends Component {
         </Form>
         <Button
           className="btn-remove"
-          onClick={this.props.removeGift(this.props.gift.id)}
+          onClick={() => this.props.removeGift(this.props.gift.id)}
         >
           Remove Gift
         </Button>

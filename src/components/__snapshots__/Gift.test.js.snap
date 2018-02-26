@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Gift renders properly 1`] = `
-<div>
+<div
+  className="gift"
+>
   <Form
     bsClass="form"
     componentClass="form"
@@ -48,6 +50,7 @@ exports[`Gift renders properly 1`] = `
     bsStyle="default"
     className="btn-remove"
     disabled={false}
+    onClick={[Function]}
   >
     Remove Gift
   </Button>
