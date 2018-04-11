@@ -30,7 +30,7 @@ describe('Gift', () => {
     });
   });
 
-  describe('when typing into the person present', () => {
+  describe('when typing into the present input', () => {
     const present = 'Golf Clubs';
 
     beforeEach(() => {
